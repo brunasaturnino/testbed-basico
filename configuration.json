@@ -1,0 +1,84 @@
+{
+  "db-username": "cowrie",
+  "db-password": "!M2017Database",
+  "costs": {
+    "reconfiguration": 10,
+    "availability": [
+      {
+        "ip": "10.0.0.11",
+        "value": 1
+      },
+      {
+        "ip": "10.0.0.12",
+        "value": 0
+      },
+      {
+        "ip": "10.0.0.13",
+        "value": 10
+      },
+      {
+        "ip": "10.0.0.14",
+        "value": 2
+      },
+      {
+        "ip": "10.0.0.15",
+        "value": 5
+      }
+    ],
+    "integrity": [
+      {
+        "ip": "10.0.0.11",
+        "value": 500
+      },
+      {
+        "ip": "10.0.0.12",
+        "value": 500
+      },
+      {
+        "ip": "10.0.0.13",
+        "value": 2000
+      },
+      {
+        "ip": "10.0.0.14",
+        "value": 3000
+      },
+      {
+        "ip": "10.0.0.14",
+        "value": 4000
+      }
+    ]
+  },
+  "honeypots": [
+    {
+      "ip": "10.0.0.11",
+      "dns": "test",
+      "username": "admin",
+      "password": "password"
+    },
+    {
+      "ip": "10.0.0.12",
+      "dns": "",
+      "username": "root",
+      "password": "raspberry"
+    },
+    {
+      "ip": "10.0.0.13",
+      "dns": "www",
+      "username": "root",
+      "password": "123123"
+    },
+    {
+      "ip": "10.0.0.14",
+      "dns": "mail",
+      "username": "admin",
+      "password": "admin"
+    },
+    {
+      "ip": "10.0.0.15",
+      "dns": "db",
+      "username": "root",
+      "password": "password1"
+    }
+  ],
+  "success_probability":  0.4
+}
